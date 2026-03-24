@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+</head>
+
+<body>
+<p align="center">Phiếu đăng ký tham gia chương trình khuyến mãi</p>
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <table width="1000" border="1">
+      <tr>
+        <td width="150" bgcolor="#66FFCC">Họ và tên</td>
+        <td width="834" bgcolor="#66FFCC"><label for="textfield"></label>
+        <input type="text" name="textfield" id="textfield" /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Địa chỉ</td>
+        <td bgcolor="#66FFCC"><label for="textfield2"></label>
+        <input type="text" name="textfield2" id="textfield2" /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Số điện thoại</td>
+        <td bgcolor="#66FFCC"><label for="textfield3"></label>
+        <input type="text" name="textfield3" id="textfield3" /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Giới tính</td>
+        <td bgcolor="#66FFCC"><input type="radio" name="radio" id="radio" value="radio" />
+          <label for="radio">Nam 
+            <input type="radio" name="radio2" id="radio2" value="radio2" />
+        Nữ</label></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Nghề Nghiệp</td>
+        <td bgcolor="#66FFCC"><select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+          <option>Nghề nghiệp</option>
+          <option>Giáo viên</option>
+          <option>Công an</option>
+          <option>Bác sĩ</option>
+          <option>Kinh doanh</option>
+          <option>Nông dân</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Chọn sản phẩm tham gia</td>
+        <td bgcolor="#66FFCC"><select name="jumpMenu2" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+          <option>Chọn sản phẩm</option>
+          <option>Dầu gội</option>
+          <option>Bột giặt</option>
+          <option>Sữa tắm</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td bgcolor="#66FFCC">Số người dự đoán tham gia</td>
+        <td bgcolor="#66FFCC"><label for="textfield4"></label>
+        <input type="text" name="textfield4" id="textfield4" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#66FFCC"><div align="center">
+          <input type="submit" name="Đồng ý" id="Đồng ý" value="Đồng ý" />
+        </div></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#66FFCC">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
